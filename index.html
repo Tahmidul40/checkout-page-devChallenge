@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- material icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="./dist/main.css" />
+    <!-- title -->
+    <title>Checkout</title>
+  </head>
+
+  <body>
+    <!-- hero section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <!-- header -->
+        <div class="header">
+          <h1>Checkout</h1>
+        </div>
+
+        <!-- cart -->
+        <div class="forFlex">
+          <div class="checkout-card">
+            <!-- card 1 -->
+            <div class="card">
+              <div class="card__img">
+                <img src="./photo1.png" alt="" />
+              </div>
+
+              <div class="card__text">
+                <h3>Vintage Backbag</h3>
+
+                <div>
+                  <span class="act-price">$54.99</span>
+                  <span class="del-price"><del>$94.99</del></span>
+                </div>
+
+                <div class="add-remove-btn">
+                  <a href=""><span class="material-icons"> remove </span></a>
+                  <span class="count">1</span>
+                  <a href=""><span class="material-icons"> add </span> </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card">
+              <div class="card__img">
+                <img src="./photo2.png" alt="" />
+              </div>
+
+              <div class="card__text">
+                <h3>Levi Shoes</h3>
+
+                <div>
+                  <span class="act-price">$74.99</span>
+                  <span class="del-price"><del>$124.99</del></span>
+                </div>
+
+                <div class="add-remove-btn">
+                  <a href=""><span class="material-icons"> remove </span></a>
+                  <span class="count">1</span>
+                  <a href=""><span class="material-icons"> add </span> </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- cost -->
+            <div class="cost">
+              <div class="line"></div>
+              <div class="row">
+                <h3>Shipping</h3>
+                <span class="shippingFee">$19</span>
+              </div>
+
+              <div class="line"></div>
+              <div class="row">
+                <h3>Total</h3>
+                <span class="shippingFee">$148.98</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- contact -->
+          <div class="contact">
+            <form class="form">
+              <!-- title 1 -->
+              <h2>Contact infomation</h2>
+
+              <!-- email -->
+              <div class="forAll">
+                <label>E-mail</label>
+                <input
+                  type="email"
+                  placeholder="Enter your email..."
+                  name="email"
+                  required
+                />
+                <span class="material-icons form-icon"> email </span>
+              </div>
+
+              <!-- phone -->
+              <div class="forAll">
+                <label>Phone</label>
+                <input
+                  type="number"
+                  placeholder="Enter your phone..."
+                  name="phone"
+                  required
+                />
+                <span class="material-icons form-icon"> phone </span>
+              </div>
+
+              <!-- title 2 -->
+              <h3>Shipping address</h3>
+
+              <!-- name -->
+              <div class="forAll">
+                <label>Full Name</label>
+                <input
+                  type="name"
+                  placeholder="Enter your Full Name..."
+                  name="name"
+                  required
+                />
+                <span class="material-icons form-icon"> account_circle </span>
+              </div>
+
+              <!-- address -->
+              <div class="forAll">
+                <label>Address</label>
+                <input
+                  type="text"
+                  placeholder="Your address.."
+                  name="address"
+                  required
+                />
+                <span class="material-icons form-icon"> home </span>
+              </div>
+
+              <!-- city -->
+              <div class="forAll">
+                <label>City</label>
+                <input
+                  type="text"
+                  placeholder="Your city.."
+                  name="city"
+                  required
+                />
+                <span class="material-icons form-icon"> location_city </span>
+              </div>
+
+              <!-- country & postal code -->
+              <div class="twoInOne">
+                <!-- country -->
+                <div class="forAll m-right">
+                  <label>Country</label>
+                  <input
+                    type="text"
+                    placeholder="country.."
+                    name="Country"
+                    required
+                  />
+                  <span class="material-icons form-icon"> location_city </span>
+                </div>
+
+                <!-- postal code -->
+                <div class="forAll">
+                  <label>Postal code</label>
+                  <input
+                    type="number"
+                    placeholder="postal code.."
+                    name="Postal-code"
+                    required
+                  />
+                  <span class="material-icons form-icon">
+                    markunread_mailbox
+                  </span>
+                </div>
+              </div>
+
+              <!-- checkbox -->
+              <div class="checkboxA">
+                <input type="checkbox" id="checkbox" name="checkbox" />
+                <label> Save this information for next time </label>
+              </div>
+
+              <!-- submit -->
+              <div class="submit">
+                <input type="submit" value="Continue" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        created by <a href="http://github.com/Tahmidul40">Tahmidul</a> -
+        devChallenges.io
+      </p>
+    </footer>
+  </body>
+</html>

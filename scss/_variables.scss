@@ -1,0 +1,16 @@
+// colors ----------
+$orange: #f2994a;
+$gray-1: #333333;
+$gray-2: #4f4f4f;
+$gray-3: #828282;
+$gray-4: #4e5150;
+$gray-5: #e0e0e0;
+$bg-card: #f2f2f2;
+$line: #bdbdbd;
+
+// media query
+@mixin laptop {
+  @media (min-width: 1024.98px) {
+    @content;
+  }
+}
